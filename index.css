@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #d3a5d9, #e5c4f3); /* Degradado morado */
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.gif-arriba {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Ajusta el margen para separar el GIF del contenido */
+}
+
+h1 {
+    color: #7b4d9c; /* Morado más oscuro */
+}
+
+.pregunta {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boton {
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.boton-s {
+    background-color: #8e2de2; /* Morado brillante */
+    color: white;
+}
+
+.boton-s:hover {
+    background-color: #7b4d9c; /* Morado más oscuro */
+}
+
+.boton-n {
+    background-color: #c13584; /* Color rosa morado */
+    color: white;
+}
+
+.boton-n:hover {
+    background-color: #a12b6e; /* Rosa más oscuro */
+}
+
+.mensaje {
+    display: none;
+    margin-top: 20px;
+    font-size: 22px;
+    color: #8e2de2; /* Morado brillante */
+}
